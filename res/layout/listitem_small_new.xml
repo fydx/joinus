@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/view480" />
+
+    <TextView
+        android:id="@+id/name_small_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="12dip"
+        android:paddingTop="1dip"
+        android:text="活动名称"
+        android:textColor="#FFFFFF"
+        android:textSize="23dip" 
+        />
+
+    <ImageView
+        android:id="@+id/timeicon_small_new"
+        android:layout_width="23dip"
+        android:layout_height="23dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name_small_new"
+        android:src="@drawable/time"
+        android:layout_marginLeft="10dip" 
+        android:layout_marginTop="6dip"/>
+
+    <ImageView
+        android:id="@+id/placeicon_small_new"
+        android:layout_width="23dip"
+        android:layout_height="23dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timeicon_small_new"
+        android:src="@drawable/place" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"/>
+
+    <ImageView
+        android:id="@+id/shetuanicon_small_new"
+        android:layout_width="23dip"
+        android:layout_height="23dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/placeicon_small_new"
+        android:src="@drawable/shetuan"
+        android:layout_marginLeft="10dip"
+         android:layout_marginTop="5dip" />
+
+    <TextView
+        android:id="@+id/time_small_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/placeicon_small_new"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/timeicon_small_new"
+       
+        android:text="时间"
+        android:textColor="#0F0F0F" />
+
+    <TextView
+        android:id="@+id/place_small_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shetuanicon_small_new"
+        android:layout_alignLeft="@+id/time_small_new"
+        android:text="place"
+        android:textColor="#0F0F0F" />
+
+    <TextView
+        android:id="@+id/shetuan_small_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shetuanicon_small_new"
+        android:layout_alignLeft="@+id/place_small_new"
+        android:text="社团"
+        android:textColor="#0F0F0F" />
+
+    <ImageView
+        android:id="@+id/poster_small_new"
+        android:layout_width="66dip"
+        android:layout_height="88dip"
+        android:layout_alignBottom="@+id/shetuan_small_new"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:paddingTop="8dip"
+        android:src="@drawable/welcome" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/shetuanicon_small_new"
+        android:layout_below="@+id/imageView1"
+        android:text="   "
+        android:textSize="5dip" />
+
+</RelativeLayout>

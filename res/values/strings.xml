@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Join Us</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="activity_recent">最近活动</string>
+    <string name="activity_search">搜索活动</string>
+    <string name="activity_detail">活动详情</string>
+    <string name="activity_publish">发布活动</string>
+      <string name="myActivity">我的活动</string>
+       <string name="welcome">Join Us</string>
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+     android:background ="#F0F0F0">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background ="#F0F0F0" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detail" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="174dp" >
+
+    <ImageView
+        android:id="@+id/poster_for_detail"
+        android:layout_width="99dip"
+        android:layout_height="132dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/poster" />
+
+    <TextView
+        android:id="@+id/name_for_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/poster_for_detail"
+        android:layout_marginLeft="22dp"
+        android:layout_toRightOf="@+id/poster_for_detail"
+        android:text="活动名称"
+        android:textColor="#000000"
+        android:textSize="20dip" />
+
+    <ImageView
+        android:id="@+id/timeicon_for_detail"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignLeft="@+id/name_for_detail"
+        android:layout_below="@+id/name_for_detail"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/time" />
+
+    <TextView
+        android:id="@+id/time_for_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeicon_for_detail"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/timeicon_for_detail"
+        android:text="活动时间"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <ImageView
+        android:id="@+id/placeicon_for_detail"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_below="@+id/timeicon_for_detail"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/time_for_detail"
+        android:src="@drawable/place" />
+
+    <TextView
+        android:id="@+id/place_for_detail"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_alignLeft="@+id/time_for_detail"
+        android:layout_alignRight="@+id/time_for_detail"
+        android:layout_alignTop="@+id/placeicon_for_detail"
+        android:gravity="bottom"
+        android:text="活动地点"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <ImageView
+        android:id="@+id/shetuanicon_for_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/placeicon_for_detail"
+        android:layout_below="@+id/placeicon_for_detail"
+         android:layout_marginTop="5dp"
+        android:src="@drawable/shetuan" />
+
+    <TextView
+        android:id="@+id/shetuan_for_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shetuanicon_for_detail"
+        android:layout_alignLeft="@+id/place_for_detail"
+        android:text="社团"
+          android:textColor="#000000"
+        android:textSize="15dip" />
+
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/huodongxiangqing"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="活动详情" 
+    android:paddingLeft="5dip"
+       android:textColor="#000000"
+        android:textSize="25dip"/>
+
+<TextView
+    android:id="@+id/detail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="detail"
+    android:paddingLeft="5dip"
+    android:textColor="#000000" 
+    android:textSize="13dip"/>
+
+
+<TextView
+    android:id="@+id/about_club"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="关于" 
+    android:paddingLeft="5dip"
+     android:textColor="#000000" 
+    android:textSize="25dip"/>
+
+<TextView
+    android:id="@+id/text_about_club"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="about"
+    android:paddingLeft="5dip"
+    android:textColor="#000000" 
+    android:textSize="13dip" />
+
+</LinearLayout>
+</ScrollView>

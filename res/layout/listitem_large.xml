@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center" >
+
+        <ImageView
+            android:id="@+id/haibao"
+            android:layout_width="130dip"
+            android:layout_height="230dip"
+            android:paddingRight="23dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/default1" />
+
+        <TextView
+            android:id="@+id/Activity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/haibao"
+            android:text="name"
+         
+            android:textColor="#000000"
+            android:textSize="25dip" />
+
+        <TextView
+            android:id="@+id/Activity_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Activity_name"
+            android:layout_below="@+id/Activity_name"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+                        android:textColor="#000000"
+            android:text="time"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/Activity_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Activity_time"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="100dip"
+                        android:textColor="#000000"
+            android:text="place"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/Activity_shetuan"
+            android:layout_width="wrap_content"
+                        android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Activity_place"
+            android:layout_below="@+id/Activity_place"
+            android:layout_marginTop="16dp"
+            android:paddingTop="@dimen/padding_small"
+            android:text="shetuan"
+            android:textSize="20dip" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_alignTop="@+id/Activity_time"
+            android:layout_toLeftOf="@+id/Activity_time"
+            android:src="@drawable/time" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignTop="@+id/Activity_place"
+            android:src="@drawable/place" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:paddingRight="5dip"
+            android:layout_alignBottom="@+id/Activity_shetuan"
+            android:layout_toLeftOf="@+id/Activity_shetuan"
+            android:src="@drawable/shetuan" />
+
+    </RelativeLayout>
+
+</LinearLayout>

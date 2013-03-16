@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+     android:background ="#F0F0F0">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/publishbar" />
+
+    <TextView
+        android:id="@+id/shetuanmingcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="社团名称"
+        android:textColor="#000000"
+        android:textSize="25dip" />
+
+    <TextView
+        android:id="@+id/name_shetuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="TextView"
+        android:textSize="25dip" />
+
+    <TextView
+        android:id="@+id/huodongmingcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="活动名称"
+        android:textSize="25dip" />
+
+    <EditText
+        android:id="@+id/name_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/huodongshijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="活动时间"
+        android:textSize="25dip" />
+
+    <Button
+        android:id="@+id/time_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="选择时间"
+        android:textSize="25dip" />
+
+    <Button
+        android:id="@+id/date_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="选择日期"
+        android:textSize="25dip" />
+
+    <TextView
+        android:id="@+id/haibao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25dip" 
+        android:text="活动海报" />
+
+    <Button
+        android:id="@+id/photo_chooser"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="选择图片" />
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:src="@drawable/welcome" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="活动地点"
+        android:textSize="25dip" />
+
+    <EditText
+        android:id="@+id/place_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#000000"
+        android:text="活动详情"
+        android:textSize="25dip" />
+
+    <EditText
+        android:id="@+id/detail_EditTexts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   "
+            android:background="@drawable/button_style_submit" />
+
+</LinearLayout>
+</ScrollView>
